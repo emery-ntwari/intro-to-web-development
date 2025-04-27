@@ -1,7 +1,7 @@
 function changeBackgroundColor(color){
     let section = document.getElementById('coding-journey');
     section.style.backgroundColor = color;
-}
+} 
 
 document.getElementById('intro').addEventListener('click', () => changeBackgroundColor("#2CA02C"));
 
